@@ -5,7 +5,6 @@ public class pivotIndexFind {
         int[] nums ={2,3,-1,8,4};
         int idx=findMiddleIndex(nums);
         System.out.println(idx);
-
     }
     public static int findMiddleIndex(int[] nums) {
         if(nums.length==1){
