@@ -1,9 +1,5 @@
 package Recursion;
-
-import PrefixSum.HashMapPattern.SubArraySumEqualstoK;
-
 import java.util.Scanner;
-
 //k steps to go on top
 public class climbingStairsII {
     public static void main(String[] args) {
