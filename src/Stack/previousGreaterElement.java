@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class previousGreaterElement {
     public static void main(String[] args) {
-        int[] arr={5,4,3,2,1};
+        int[] arr={60, 20, 50, 40, 10, 50, 60};
         int[] prev=prevGreaterElementFind(arr);
         System.out.println(Arrays.toString(prev));
     }
@@ -23,7 +23,7 @@ public class previousGreaterElement {
                 prev[i]=-1;
             }
             else{
-                prev[i]=s.pop();
+                prev[i]=s.peek();
             }
             s.push(arr[i]);
         }

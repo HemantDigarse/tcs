@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class previousSmallestElement {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5};
+        int[] arr={60, 20, 50, 40, 10, 50, 60};
         int[] prevS=previousSmallestElementFind(arr);
         System.out.println(Arrays.toString(prevS));
     }
@@ -23,7 +23,7 @@ public class previousSmallestElement {
                 prevS[i]=-1;
             }
             else{
-                prevS[i]=s.pop();
+                prevS[i]=s.peek();
             }
             s.push(arr[i]);
         }
