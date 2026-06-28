@@ -12,7 +12,6 @@ public class previousGreaterElement {
     public static int[] prevGreaterElementFind(int[] arr){
         int[] prev=new int[arr.length];
         Stack<Integer> s=new Stack<>();
-        int len=arr.length;
         prev[0]=-1;
         s.push(arr[0]);
         for(int i=1;i<arr.length;i++){
